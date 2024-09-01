@@ -1,0 +1,181 @@
+@media (max-width: 767px) {
+  .navbar-collapse {
+    display: inherit;
+  }
+
+  .nav-item {
+    margin-left: 1rem;
+  }
+
+  .navbar-nav {
+    flex-direction: row;
+  }
+
+  .navbar .smicon {
+    width: 2rem;
+    margin-left: 5px;
+    margin-right: -25px;
+  }
+
+  .navbar li a {
+    font-size: 0.8rem;
+  }
+
+  .card-body {
+    flex: none;
+  }
+
+  .projbadge {
+    flex-direction: column;
+  }
+
+  .projbadge .refdiv,
+  .container .smbtncarto {
+    width: 50%;
+  }
+
+  .container .display-3 {
+    font-size: 2.2rem;
+  }
+
+  .container .h2sm {
+    font-size: 1.8rem;
+  }
+
+  .container .h3sm {
+    font-size: 1.4rem;
+  }
+
+  .container .h4sm {
+    font-size: 1rem;
+  }
+
+  .container .certlist {
+    width: 80%;
+  }
+}
+
+@media (max-height: 700px) {
+  .navbar {
+    padding-bottom: 0px;
+    padding-top: 0px;
+  }
+}
+
+/* Bootstrap Jumbotron CSS. Move down content because we have a fixed navbar that is 3.5rem tall */
+body {
+  padding-top: 3.5rem;
+}
+
+/* Homepage */
+/* Navbar icon */
+.mdicon {
+  width: 3.1rem;
+  margin-left: 10px;
+}
+
+.borderbtm {
+  border-bottom: solid;
+}
+
+.projcont,
+.projdiv,
+.projbadge {
+  display: flex;
+}
+
+.projcont {
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.projdiv {
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 5%;
+  margin-top: 1%;
+}
+
+.card {
+  height: 210px;
+  width: 95%;
+  max-width: 18rem;
+}
+
+.card .card-header,
+.refdiv {
+  text-align: center;
+}
+
+.refdiv {
+  margin-right: 2%;
+  width: 15%;
+}
+
+.margbtmthin {
+  margin-bottom: 3%;
+}
+
+#projstat {
+  margin-top: 5%;
+  margin-bottom: 2%;
+}
+
+.bg-customgray {
+  background-color: #e9ecef;
+}
+
+.bg-customaqua {
+  background-color: #17a2b8;
+}
+
+#reposh3 {
+  padding-left: 0px;
+}
+
+/* Footer */
+footer {
+  border-top: solid;
+  border-width: 0.2vw;
+  margin-top: 5%;
+}
+
+footer a:not(#maila) {
+  float: right;
+}
+
+#maila:any-link {
+  color: inherit;
+}
+
+/* About page */
+/* Cert ULs on About page */
+.certlist {
+  width: 40%;
+}
+
+/* Graphics page */
+.wallthumb {
+  border-color: DarkGray;
+  width: 75%;
+}
+
+.embed-responsive {
+  margin-top: 5%;
+}
+
+.mdbtncarto {
+  margin-left: 40%;
+  width: 20%;
+}
+
+.wallthumb,
+.embed-responsive,
+.mdbtncarto {
+  margin-bottom: 5%;
+}
+
+/* Contact page */
+.contactli {
+  width: 235px;
+}

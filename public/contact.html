@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-7V9TKMFQ7L"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-7V9TKMFQ7L");
+    </script>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <!-- Local CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <link rel="icon" href="./img/html-tags-fav.ico" />
+
+    <title>Contact Information</title>
+  </head>
+
+  <body>
+    <!-- Navbar -->
+    <nav
+      id="navbar"
+      class="navbar navbar-dark navbar-expand-md bg-dark fixed-top"
+    >
+      <div class="navbar-collapse">
+        <a class="navbar-brand" href="index.html">
+          <img
+            id="licon"
+            class="smicon mdicon"
+            src="./img/logo-l.png"
+            alt="L logo"
+            data-toggle="tooltip"
+            data-placement="auto"
+            title="Return to the Home Page"
+          />
+        </a>
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html#projects">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="graphics.html">Graphics</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="index.html#donate">Donate</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- /Navbar -->
+
+    <main role="main">
+      <!-- Main jumbotron area -->
+      <div id="welcome-section" class="bg-customgray p-5">
+        <br />
+        <div class="container">
+          <h1 class="display-3"><b>Contact Information</b></h1>
+          <p class="jumbop">
+            Thoughts and suggestions are welcome!<br />
+            Contact me through the following means or leave a comment directly
+            on the site.
+          </p>
+        </div>
+        <br />
+      </div>
+      <!-- /Main jumbotron area -->
+
+      <br />
+
+      <div class="container">
+        <h2 class="borderbtm h2sm">You can reach me at</h2>
+
+        <div class="row">
+          <div class="col-auto">
+            <br />
+            <a href="mailto:psljp@protonmail.com">
+              <img
+                src="./img/icon-email.png"
+                alt="Email icon"
+                data-toggle="tooltip"
+                data-placement="auto"
+                title="Email"
+              />
+            </a>
+          </div>
+
+          <div class="col-auto">
+            <br />
+            <a
+              href="https://t.me/LeanderXY"
+              target="_blank"
+              rel="noreferrer noopener"
+            >
+              <img
+                src="./img/icon-telegram.png"
+                alt="Telegram icon"
+                data-toggle="tooltip"
+                data-placement="auto"
+                title="Telegram"
+              />
+            </a>
+          </div>
+        </div>
+        <br />
+
+        <div class="row">
+          <div class="col-auto">
+            <ul class="list-group certlist">
+              <li class="list-group-item list-group-item-action contactli">
+                Discord: <b>LeanderXY#8816</b>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <br />
+
+        <h2 class="borderbtm h2sm">Post a comment</h2>
+        <br />
+
+        <div id="disqus_thread"></div>
+        <script>
+          /**
+           *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+           *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+          var disqus_config = function () {
+            this.page.url = "https://maybelambda.cf" + window.location.pathname; // Replace PAGE_URL with your page's canonical URL variable
+            this.page.identifier = "contactinfo"; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+          };
+
+          (function () {
+            // DON'T EDIT BELOW THIS LINE
+            var d = document,
+              s = d.createElement("script");
+            s.src = "https://maybelambda.disqus.com/embed.js";
+            s.setAttribute("data-timestamp", +new Date());
+            (d.head || d.body).appendChild(s);
+          })();
+        </script>
+        <noscript
+          >Please enable JavaScript to view the
+          <a href="https://disqus.com/?ref_noscript"
+            >comments powered by Disqus.</a
+          ></noscript
+        >
+      </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="container bg-customgray">
+      <span
+        >&copy;
+        <a id="maila" href="mailto:psljp@protonmail.com">Asta86</a> - </span
+      ><span id="yearSpan"></span>
+      <a class="text-dark" href="#">Top</a>
+      <div class="container text-center">
+        <p><b>*</b> Minimum recommended resolution: 350x500 px</p>
+      </div>
+    </footer>
+    <!-- /Footer -->
+
+    <!-- Set Copyright year in the Footer. -->
+    <script>
+      document.getElementById("yearSpan").textContent =
+        new Date().getFullYear();
+    </script>
+  </body>
+</html>

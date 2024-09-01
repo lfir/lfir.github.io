@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-7V9TKMFQ7L"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-7V9TKMFQ7L");
+    </script>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <!-- Local CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <link rel="icon" href="./img/html-tags-fav.ico" />
+
+    <title>Welcome to my Web Portfolio!</title>
+  </head>
+
+  <body>
+    <!-- Navbar -->
+    <nav
+      id="navbar"
+      class="navbar navbar-dark navbar-expand-md bg-dark fixed-top"
+    >
+      <div class="navbar-collapse">
+        <a class="navbar-brand" href="#">
+          <img
+            id="licon"
+            class="smicon mdicon"
+            src="./img/logo-l.png"
+            alt="L logo"
+            data-toggle="tooltip"
+            data-placement="auto"
+            title="Back to top"
+          />
+        </a>
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#projects">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="graphics.html">Graphics</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#donate">Donate</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- /Navbar -->
+
+    <main role="main">
+      <!-- Main jumbotron area -->
+      <div id="welcome-section" class="bg-customgray p-5">
+        <br />
+        <div class="container">
+          <h1 class="display-3"><b>Asta[0-9]{2,4} 's Web Portfolio</b></h1>
+          <p class="jumbop">
+            Welcome to <b>Leandro</b> (aka <b>Asta</b>...) 's online
+            portfolio.<br />Contact information and details about past and
+            current <b>personal</b> software development projects can be found
+            here.
+          </p>
+        </div>
+        <br />
+      </div>
+      <!-- /Main jumbotron area -->
+
+      <br />
+
+      <!-- Projects & repos section -->
+      <div id="projects" class="container">
+        <h2 id="projstitle" class="borderbtm h2sm">Software Projects</h2>
+
+        <br />
+
+        <!-- Project cards -->
+        <div class="projcont">
+          <div class="projdiv">
+            <div class="card bg-customaqua text-light mb-3">
+              <h5 class="card-header">Sci & Tech docs</h5>
+              <div class="card-body">
+                <p class="card-text">
+                  Website containing excerpts from useful technical
+                  documentation. Uses syntax highlighting and cross document
+                  search.
+                </p>
+              </div>
+            </div>
+            <a
+              class="btn btn-secondary"
+              href="https://maybelambda.cf/techdocs"
+              role="button"
+              target="_blank"
+              rel="noreferrer noopener"
+            >
+              View details &raquo;
+            </a>
+          </div>
+
+          <div class="projdiv">
+            <div class="card bg-customaqua text-light mb-3">
+              <h5 class="card-header">Algorithm notes</h5>
+              <div class="card-body">
+                <p class="card-text">
+                  Personal notes and Python and Java implementations of some
+                  interesting algorithms.
+                </p>
+              </div>
+            </div>
+            <a
+              class="btn btn-secondary"
+              href="https://github.com/lfir/algorithm-notes"
+              role="button"
+              target="_blank"
+              rel="noreferrer noopener"
+            >
+              View details &raquo;
+            </a>
+          </div>
+
+          <div class="projdiv">
+            <div class="card bg-customaqua text-light mb-3">
+              <h5 class="card-header">HTTP Validator</h5>
+              <div class="card-body">
+                <p class="card-text">
+                  Spring Boot app that executes HTTP requests periodically, performs checks on 
+                  response data and notifies about the results via email. 
+                </p>
+              </div>
+            </div>
+            <a
+              class="btn btn-secondary"
+              href="https://github.com/lfir/http-validator"
+              role="button"
+              target="_blank"
+              rel="noreferrer noopener"
+            >
+              View details &raquo;
+            </a>
+          </div>
+        </div>
+
+        <div class="projcont">
+          <div class="projdiv">
+            <div class="card text-bg-dark mb-3">
+              <h5 class="card-header">API Lab</h5>
+              <div class="card-body">
+                <p class="card-text">
+                  Node.js app that uses minimal up-to-date dependencies to be
+                  suitable for cloud containers and serve as base for other
+                  projects.
+                </p>
+              </div>
+            </div>
+            <a
+              class="btn btn-secondary"
+              href="https://github.com/lfir/node-ex-ts"
+              role="button"
+              target="_blank"
+              rel="noreferrer noopener"
+            >
+              View details &raquo;
+            </a>
+          </div>
+
+          <div class="projdiv">
+            <div class="card text-bg-dark mb-3">
+              <h5 class="card-header">utils_tabdata</h5>
+              <div class="card-body">
+                <p class="card-text">
+                  Small Module and CLI with tools to help organize and work with
+                  tabular data, written in Python 3.
+                </p>
+              </div>
+            </div>
+            <a
+              class="btn btn-secondary"
+              href="https://github.com/lfir/utils_tabdata"
+              role="button"
+              target="_blank"
+              rel="noreferrer noopener"
+            >
+              View details &raquo;
+            </a>
+          </div>
+
+          <div class="projdiv">
+            <div class="card text-bg-dark mb-3">
+              <h5 class="card-header">War for the Colonies</h5>
+              <div class="card-body">
+                <p class="card-text">
+                  Modification of SEGA's game Medieval II that restores hidden
+                  content and adds additional gameplay options.
+                </p>
+              </div>
+            </div>
+            <a
+              class="btn btn-secondary"
+              href="https://www.twcenter.net/forums/showthread.php?359840-War-for-the-Colonies-a-m2tw-americas-campaign-mod"
+              role="button"
+              target="_blank"
+              rel="noreferrer noopener"
+            >
+              View details &raquo;
+            </a>
+          </div>
+        </div>
+        <!-- /Project cards -->
+
+        <!-- Project status reference -->
+        <h4 id="projstat" class="borderbtm h4sm">Status</h4>
+        <div id="refcont" class="projbadge">
+          <div class="alert alert-info bg-customaqua text-light refdiv">
+            Active project
+          </div>
+          <div class="alert alert-dark text-bg-dark refdiv">
+            Archived project
+          </div>
+        </div>
+        <!-- /Project status reference -->
+
+        <br /><br />
+
+        <!-- Public repos -->
+        <div class="container">
+          <div class="row">
+            <h3 id="reposh3" class="borderbtm h3sm margbtmthin">
+              Public repositories and contributions
+            </h3>
+
+            <div class="col-auto">
+              <a
+                href="https://github.com/lfir"
+                target="_blank"
+                rel="noreferrer noopener"
+              >
+                <img
+                  src="./img/logo-github.png"
+                  alt="GitHub Logo"
+                  data-toggle="tooltip"
+                  data-placement="auto"
+                  title="GitHub"
+                />
+              </a>
+            </div>
+
+            <div class="col-auto">
+              <a
+                href="https://gitlab.com/lfir"
+                target="_blank"
+                rel="noreferrer noopener"
+              >
+                <img
+                  src="./img/logo-gitlab.png"
+                  alt="GitLab Logo"
+                  data-toggle="tooltip"
+                  data-placement="auto"
+                  title="GitLab"
+                />
+              </a>
+            </div>
+
+            <div class="col-auto">
+              <a
+                href="https://stackexchange.com/users/6093541/asta86"
+                target="_blank"
+                rel="noreferrer noopener"
+              >
+                <img
+                  src="./img/logo-stackexchange.png"
+                  alt="StackExchange Logo"
+                  data-toggle="tooltip"
+                  data-placement="auto"
+                  title="StackExchange"
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+        <!-- /Public repos -->
+      </div>
+      <!-- /Projects & repos section -->
+
+      <br /><br />
+
+      <!-- Donate section -->
+      <div id="donate" class="container">
+        <h2 class="borderbtm h2sm margbtmthin">Donate</h2>
+
+        <div class="table-responsive">
+          <table class="table table-hover table-dark">
+            <thead>
+              <tr>
+                <th class="text-bg-success" colspan="3">
+                  Do you like my work and would like to make a donation to
+                  support me?<br />
+                  Thanks! You can do it using any of the cryptocurrencies listed
+                  below.
+                </th>
+              </tr>
+              <tr>
+                <td colspan="3"></td>
+              </tr>
+              <tr>
+                <th scope="col">Coin</th>
+                <th scope="col">Wallet</th>
+                <th scope="col">Network</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>BTC</td>
+                <td>
+                  bc1qavlx9khm2e40vh4verhtv80kl3jxhcfn76aq9nq3rspa4kl6mtgq22ulwf
+                </td>
+                <td>Bitcoin</td>
+              </tr>
+              <tr>
+                <td>ETH/USDT<b>*</b></td>
+                <td>0xAEd6c17Ea3A644deC9C3e5a9310d576BdFdcb30C</td>
+                <td>Ethereum, BNB Smart Chain</td>
+              </tr>
+              <tr>
+                <td colspan="3">
+                  <b>*</b>Plus other ERC20/BEP20 tokens such as USDC and DAI.
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <!-- /Donate section -->
+    </main>
+
+    <br /><br />
+
+    <!-- Footer -->
+    <footer class="container bg-customgray">
+      <span
+        >&copy;
+        <a id="maila" href="mailto:psljp@protonmail.com">Asta86</a> - </span
+      ><span id="yearSpan"></span>
+      <a class="text-dark" href="#">Top</a>
+      <div class="container text-center">
+        <p><b>*</b> Minimum recommended resolution: 350x500 px</p>
+      </div>
+    </footer>
+    <!-- /Footer -->
+
+    <!-- Set Copyright year in the Footer. -->
+    <script>
+      document.getElementById("yearSpan").textContent =
+        new Date().getFullYear();
+    </script>
+  </body>
+</html>
