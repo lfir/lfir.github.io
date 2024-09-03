@@ -50,8 +50,15 @@
     font-size: 1rem;
   }
 
+  /* About page */
   .container .certlist {
     width: 80%;
+  }
+
+  /* Contact page */
+  .im-c {
+    margin-top: 5%;
+    max-width: 80%;
   }
 }
 
