@@ -49,13 +49,10 @@
   .container .h4sm {
     font-size: 1rem;
   }
+}
 
-  /* About page */
-  .container .certlist {
-    width: 80%;
-  }
-
-  /* Contact page */
+@media (max-width: 990px) {
+  /* About, Contact page images */
   .im-c {
     margin-top: 5%;
     max-width: 80%;
@@ -155,30 +152,10 @@ footer a:not(#maila) {
   color: inherit;
 }
 
-/* About page */
-/* Cert ULs on About page */
-.certlist {
-  width: 40%;
-}
-
 /* Graphics page */
 .wallthumb {
   border-color: DarkGray;
   width: 75%;
-}
-
-.embed-responsive {
-  margin-top: 5%;
-}
-
-.mdbtncarto {
-  margin-left: 40%;
-  width: 20%;
-}
-
-.wallthumb,
-.embed-responsive,
-.mdbtncarto {
   margin-bottom: 5%;
 }
 
