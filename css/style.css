@@ -163,7 +163,7 @@ footer a:not(#maila) {
 .wallthumb {
   border-color: DarkGray;
   width: 75%;
-  margin-bottom: 5%;
+  margin-bottom: 30px;
 }
 
 /* Contact page */
