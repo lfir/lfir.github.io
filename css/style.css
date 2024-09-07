@@ -59,14 +59,16 @@
   }
 }
 
-@media (max-height: 700px) {
-  .navbar {
-    padding-bottom: 0px;
-    padding-top: 0px;
-  }
+/* Common styles */
+.float-right {
+  float: right;
 }
 
-/* Bootstrap Jumbotron CSS. Move down content because we have a fixed navbar that is 3.5rem tall */
+.navbar {
+  padding-bottom: 0px;
+  padding-top: 0px;
+}
+
 body {
   padding-top: 3.5rem;
 }
@@ -161,5 +163,21 @@ footer a:not(#maila) {
 
 /* Contact page */
 .contactli {
-  width: 235px;
+  width: 270px;
+}
+
+.copy-btn {
+  padding: 5px;
+}
+
+.tooltip-cp {
+  visibility: hidden;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 5px;
+  padding: 5px;
+  position: absolute;
+  top: 100%; /* Position tooltip below */
+  left: 50%;
 }

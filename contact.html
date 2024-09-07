@@ -138,7 +138,15 @@
               <div class="col-auto">
                 <ul class="list-group certlist">
                   <li class="list-group-item list-group-item-action contactli">
-                    <b>Discord:</b> <i>LeanderXY#8816</i>
+                    <b>Discord:</b>
+                    <i><span id="cpTxtA">LeanderXY#8816</span></i>
+                    <button
+                      id="userCpBtn"
+                      class="btn btn-outline-dark copy-btn"
+                    >
+                      <img src="./img/icon-copy.png" alt="Copy" />
+                    </button>
+                    <div id="cpttip" class="tooltip-cp">Text copied!</div>
                   </li>
                 </ul>
               </div>
@@ -200,10 +208,7 @@
     </footer>
     <!-- /Footer -->
 
-    <!-- Set Copyright year in the Footer. -->
-    <script>
-      document.getElementById("yearSpan").textContent =
-        new Date().getFullYear();
-    </script>
+    <!-- Local JS -->
+    <script src="./js/utils.js"></script>
   </body>
 </html>
