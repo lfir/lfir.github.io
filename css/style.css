@@ -139,6 +139,16 @@ body {
   padding-left: 0px;
 }
 
+.tooltip-cpb {
+  visibility: hidden;
+  background-color: #fff;
+  color: #555;
+  border-radius: 5px;
+  padding: 5px;
+  position: absolute;
+  left: 50%;
+}
+
 /* Footer */
 footer {
   border-top: solid;
@@ -170,14 +180,13 @@ footer a:not(#maila) {
   padding: 5px;
 }
 
-.tooltip-cp {
+.tooltip-cpa {
   visibility: hidden;
   background-color: #555;
   color: #fff;
-  text-align: center;
   border-radius: 5px;
   padding: 5px;
   position: absolute;
-  top: 100%; /* Position tooltip below */
+  top: 100%;
   left: 50%;
 }
