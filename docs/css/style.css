@@ -25,11 +25,7 @@
     flex: none;
   }
 
-  .projbadge {
-    flex-direction: column;
-  }
-
-  .projbadge .refdiv,
+  .refdiv,
   .container .smbtncarto {
     width: 50%;
   }
@@ -44,10 +40,6 @@
 
   .container .h3sm {
     font-size: 1.4rem;
-  }
-
-  .container .h4sm {
-    font-size: 1rem;
   }
 }
 
@@ -98,8 +90,7 @@ body.bg-home {
 }
 
 .projcont,
-.projdiv,
-.projbadge {
+.projdiv {
   display: flex;
 }
 
@@ -121,14 +112,41 @@ body.bg-home {
   max-width: 18rem;
 }
 
-.card .card-header,
-.refdiv {
+.card .card-header {
   text-align: center;
 }
 
-.refdiv {
-  margin-right: 2%;
-  width: 15%;
+.status-badge {
+  position: absolute;
+  top: 7px;
+  left: 2px;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  cursor: default;
+}
+
+.status-badge.active {
+  background-color: #05f33d;
+}
+
+.status-badge.archived {
+  background-color: #6c757d;
+}
+
+/* Status Tooltip */
+.status-badge:hover::after {
+  content: attr(data-status);
+  position: absolute;
+  right: 120%;
+  top: 50%;
+  transform: translateY(-50%);
+  background: #1b1b1be1;
+  color: #dbdbdb;
+  padding: 3px 6px;
+  border-radius: 4px;
+  white-space: nowrap;
+  font-size: 0.85rem;
 }
 
 .margbtmthin {
