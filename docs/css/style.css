@@ -69,7 +69,8 @@ body {
 
 /* Homepage */
 body.bg-home {
-  background: repeating-linear-gradient(
+  background:
+    repeating-linear-gradient(
       -135deg,
       rgba(210, 210, 220, 0.2) 0,
       rgba(210, 210, 220, 0.2) 1px,
@@ -190,9 +191,10 @@ footer a:not(#maila) {
   color: inherit;
 }
 
-/* Graphics page */
-body.bg-graphics {
-  background: repeating-linear-gradient(
+/* Media page */
+body.bg-media {
+  background:
+    repeating-linear-gradient(
       135deg,
       rgba(150, 180, 220, 0.12) 0px,
       rgba(150, 180, 220, 0.12) 2px,
@@ -208,9 +210,38 @@ body.bg-graphics {
   margin-bottom: 30px;
 }
 
+/* YT Video Player */
+body.bg-media .projcont iframe {
+  width: 100%;
+  max-width: 900px;
+  aspect-ratio: 16 / 9;
+  min-height: 320px;
+  border: none;
+}
+
+@media (max-width: 991px) {
+  body.bg-media .projcont iframe {
+    max-width: 720px;
+  }
+}
+
+@media (max-width: 767px) {
+  body.bg-media .projcont iframe {
+    max-width: 100%;
+    min-height: 260px;
+  }
+}
+
+@media (max-width: 575px) {
+  body.bg-media .projcont iframe {
+    min-height: 220px;
+  }
+}
+
 /* About page */
 body.bg-about {
-  background: repeating-linear-gradient(
+  background:
+    repeating-linear-gradient(
       135deg,
       rgba(210, 210, 220, 0.2) 0,
       rgba(210, 210, 220, 0.2) 1px,
@@ -222,7 +253,8 @@ body.bg-about {
 
 /* Contact page */
 body.bg-contact {
-  background: repeating-linear-gradient(
+  background:
+    repeating-linear-gradient(
       -135deg,
       rgba(150, 180, 220, 0.12) 0px,
       rgba(150, 180, 220, 0.12) 2px,
