@@ -8,6 +8,7 @@ const idls = [
   ["userCpBtn", "cpTxtA", "cpTtipA"],
   ["addrICpBtn", "cpTxtB", "cpTtipB"],
   ["addrIICpBtn", "cpTxtC", "cpTtipC"],
+  ["addrIIICpBtn", "cpTxtD", "cpTtipD"],
 ];
 
 for (let idl of idls) {
