@@ -2,3 +2,4 @@ User-agent: *
 Allow: /
 
 Sitemap: https://leasys.baselinux.net/sitemap.xml
+Sitemap: https://leasys.baselinux.net/techdocs/sitemap.xml
